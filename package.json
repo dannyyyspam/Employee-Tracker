@@ -1,4 +1,25 @@
 {
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "Developing a command-line application to manage a company's employee database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannyyyspam/Employee-Tracker.git"
+  },
+  "keywords": [
+    "node.js",
+    "inquirer",
+    "mysql"
+  ],
+  "author": "Daniel A",
+  "bugs": {
+    "url": "https://github.com/dannyyyspam/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/dannyyyspam/Employee-Tracker#readme",
   "dependencies": {
     "console.table": "^0.10.0",
     "inquirer": "^8.2.4",
