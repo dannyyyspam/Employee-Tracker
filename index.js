@@ -1,14 +1,12 @@
 //Dependencies found here
 const inquirer = require("inquirer");
-const mysql = require("mysql");
+const mysql = require("mysql2");
 const cTable = require("console.table");
 const db = require(".");
 
 const connection = mysql.createConnection({
   host: "localhost",
 
-  // Your port; if not 3306
-  port: 8889,
 
   // Your username
   user: "root",

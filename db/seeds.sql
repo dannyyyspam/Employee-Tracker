@@ -1,4 +1,4 @@
--- Inserts names of departments into department table
+
 INSERT INTO department
   (name)
 VALUES
